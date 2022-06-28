@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="theme-dark color-theme-white">
+  <head>
+    <meta charset="utf-8" />
+    <!--
+  Customize this policy to fit your own app's needs. For more guidance, see:
+      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+  Some notes:
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+      * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: worker-src: blob:;"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+
+    <meta name="theme-color" content="#212121" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>FlekSt0re</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="apple-touch-icon" href="pro_app/icons/apple-touch-icon.png" />
+    <link rel="icon" href="pro_app/icons/favicon.png" />
+
+    <!-- built styles file will be auto injected -->
+    <script type="module" crossorigin src="pro_app/assets/index.1e2d5f85.js"></script>
+    <link rel="modulepreload" href="pro_app/assets/vendor.f52adb16.js">
+    <link rel="stylesheet" href="pro_app/assets/index.3ca207d9.css">
+  </head>
+  <body>
+    <div class="install-screen" style="height: 100%">
+      <div class="page install-screen-page" style="display: none">
+        <div class="page-content">
+          <div class="content-medium-width">
+            <div class="block">
+              <center>
+                <div class="block-title block-title-large dev-mode">
+                  <i class="fs-icon" style="position: relative; top: -4px"></i
+                  >FlekSt0re
+                </div>
+                <br />
+                <div class="block subtitle">
+                  Please add FlekSt0re to your home screen 📱
+                </div>
+              </center>
+            </div>
+            <div class="list inset no-hairlines-between">
+              <ul>
+                <li>
+                  <div class="item-content">
+                    <div class="item-media">
+                      <i style="font-size: 35px" class="f7-icons">compass</i>
+                    </div>
+                    <div class="item-inner">Open this page in Safari</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-content">
+                    <div class="item-media">
+                      <i style="font-size: 35px" class="f7-icons"
+                        >square_arrow_up</i
+                      >
+                    </div>
+                    <div class="item-inner">Click the "Share" button</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-content">
+                    <div class="item-media">
+                      <i style="font-size: 35px" class="f7-icons">plus_app</i>
+                    </div>
+                    <div class="item-inner">
+                      and choose "Add to Home Screen"
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="block">
+              <a
+                href="https://youtu.be/rFgmWOvczCk"
+                class="button button-large button-lite external"
+                target="_blank"
+              >
+                <i class="icon f7-icons">play_rectangle_fill</i> Installation
+                tutorial
+              </a>
+            </div>
+            <br />
+            <br />
+            <center>
+              <button
+                class="col button button-outline button-round color-gray width-auto close-install-screen"
+              >
+                Use in browser
+              </button>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="app" class="theme-dark"></div>
+
+    <script></script>
+    
+    <script src="pro_app/js/app-info-parser.min.js"></script>
+  </body>
+</html>

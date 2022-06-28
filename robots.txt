@@ -1,0 +1,21 @@
+User-agent:*
+Disallow:/app/
+Disallow:/old/
+Disallow:/admin/
+Disallow:/certifiget/
+Disallow:/confirm/
+Disallow:/install_app/
+Disallow:/profile/
+Disallow:/logout/
+Disallow:/forgot/
+Disallow:/confirm_message/
+Disallow:/resend/
+Disallow:/ulogin/
+Disallow:/reg/
+Disallow:/login/
+Disallow:/app_alpine/
+Disallow:/version/
+Disallow:/support/
+Disallow:/control/
+
+Sitemap: https://flekstore.com/sitemap.xml
